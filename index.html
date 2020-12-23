@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar__item_1">
+                <div class="sidebar__holder_1">
+
+                </div>
+            </div>
+            <div class="sidebar__item_2">
+                <div class="sidebar__holder_2"></div>
+                <div class="sidebar__title">Menu</div>
+            </div>
+            <div class="sidebar__menu">
+                <div class="sidebar__wrap">
+                    <div class="sidebar__img-wrap">
+                        <img src="" alt="">
+                    </div>
+                    <div class="sidebar__text">
+                        <p>Item #1</p>
+                    </div>
+                </div>
+
+                <div class="sidebar__wrap">
+                    <div class="sidebar__img-wrap">
+                        <img src="" alt="">
+                    </div>
+                    <div class="sidebar__text">
+                        <p>Item #2</p>
+                    </div>
+                </div>
+
+                <div class="sidebar__wrap">
+                    <div class="sidebar__img-wrap">
+                        <img src="" alt="">
+                    </div>
+                    <div class="sidebar__text">
+                        <p>Item #3</p>
+                    </div>
+                </div>
+
+                <div class="sidebar__wrap">
+                    <div class="sidebar__img-wrap">
+                        <img src="" alt="">
+                    </div>
+                    <div class="sidebar__text">
+                        <p>Item #4</p>
+                    </div>
+                </div>
+
+                <div class="sidebar__wrap">
+                    <div class="sidebar__img-wrap">
+                        <img src="" alt="">
+                    </div>
+                    <div class="sidebar__text">
+                        <p>Item #5</p>
+                    </div>
+                </div>
+
+                <div class="sidebar__wrap">
+                    <div class="sidebar__img-wrap">
+                        <img src="" alt="">
+                    </div>
+                    <div class="sidebar__text">
+                        <p>Item #6</p>
+                    </div>
+                </div>
+
+                <div class="sidebar__wrap">
+                    <div class="sidebar__img-wrap">
+                        <img src="" alt="">
+                    </div>
+                    <div class="sidebar__text">
+                        <p>Item #7</p>
+                    </div>
+                </div>
+
+                <div class="sidebar__wrap">
+                    <div class="sidebar__img-wrap">
+                        <img src="" alt="">
+                    </div>
+                    <div class="sidebar__text">
+                        <p>Item #8</p>
+                    </div>
+                </div>
+            </div>          
+        </div>
+        <header class="header"> 
+            <div class="header__minimal minimal">
+                <div class="minimal__btn"><button><span class="for_click">This is button</span></button></div>
+                <div class="minimal__text"><p>Minimal information</p></div>
+            </div>
+
+            <div class="switch-btn switch-on"></div>
+            <script>
+                $('.switch-btn').click(function(){
+                    $(this).toggleClass('switch-on');
+                    if ($(this).hasClass('switch-on')) {
+                        $(this).trigger('on.switch');
+                    } else {
+                        $(this).trigger('off.switch');
+                    }
+                });
+            </script>
+
+            <div class="header__holder_1"></div>
+            <div class="header__holder_2"></div>
+
+            <div class="header__user user">
+                <div class="user__title">
+                    <p>Local User Name</p>
+                </div>
+                <div class="user__indertitle">
+                    <p style="font-size: 12px;">Local</p>
+                </div>
+            </div>
+
+            <div class="header__holder_3"></div>
+
+        </header>
+
+
+        <div class="mobile__menu mobile">
+            <div class="mobile__item_1">
+                <div class="mobile__holder_1"></div>
+            </div>
+
+            <div class="mobile__item_2">
+                <div class="mobile__holder_2"></div>
+            </div>
+
+            <div class="mobile__item_3">
+                <div class="mobile__holder_3"></div>
+            </div>
+
+            <div class="mobile__item_4">
+                <div class="mobile__holder_4"></div>
+            </div>
+
+            <div class="mobile__item_5">
+                <div class="mobile__holder_5"></div>
+            </div>
+        </div>
+
+        <div class="first__modal">
+            <div class="first__modal_wrap">
+                <div class="first__modal_col">
+                    <div class="modal__item">
+                        <div class="modal__holder"></div>
+                        <div class="modal__text">Item#1</div>
+                    </div>
+                    <div class="modal__item">
+                        <div class="modal__holder"></div>
+                        <div class="modal__text">Item#2</div>
+                    </div>
+                    <div class="modal__item">
+                        <div class="modal__holder"></div>
+                        <div class="modal__text">Item#3</div>
+                    </div>
+                    <div class="modal__item">
+                        <div class="modal__holder"></div>
+                        <div class="modal__text">Item#4</div>
+                    </div>
+                </div>
+                
+                <div class="first__modal_col">
+                    <div class="modal__item">
+                        <div class="modal__holder"></div>
+                        <div class="modal__text">Item#5</div>
+                    </div>
+                    <div class="modal__item">
+                        <div class="modal__holder"></div>
+                        <div class="modal__text">Item#6</div>
+                    </div>
+                    <div class="modal__item">
+                        <div class="modal__holder"></div>
+                        <div class="modal__text">Item#7</div>
+                    </div>
+                    <div class="modal__item">
+                        <div class="modal__holder"></div>
+                        <div class="modal__text">Item#8</div>
+                    </div>
+                </div>  
+
+            </div>
+
+
+            <div class="modal__row">
+                <div class="row__text">Item#9</div>
+                <div class="row__text">Item#10</div>
+            </div>
+
+            <div class="first__closer"><span class="first_span"></span><span class="second_span"></span></div>
+
+        </div>
+
+        <div class="second__modal">
+            <div class="second__modal_text">
+                <h3>Local User Name</h3>
+                <p>Local</p>
+            </div>
+            <div class="modal__minimal">
+                <div class="modal__minimal_left">
+                    <p>Info:</p>
+                    <p>Minimal info...</p>
+                </div>
+                <div class="modal__minimal_btn">
+                    <button><span>This is button</span></button>
+                </div>
+            </div>
+            <div class="second__modal_items">
+                <h4>ITEM 1</h4>
+                <h4>ITEM 2</h4>
+                <h4>ITEM 3</h4>
+            </div>
+
+            <div class="second__closer"><span class="first_span"></span><span class="second_span"></span></div>
+        </div>
+
+        <div class="third__modal">
+            <div class="third__modal_item">
+                <p>Item Name</p>
+                <span>Item interactive:<span style="color: #589585;
+                "> mini text</span></span>
+            </div>
+            <div class="third__modal_item">
+                <p>Item Name</p>
+                <span>Item interactive:<span style="color: #589585;
+                    "> mini text</span></span>
+            </div>
+            <div class="third__modal_item">
+                <p>Item Name</p>
+                <span style="white-space: normal;">Long text Long text Long text Long text Long text Long text Long text</span>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+ 
+
+
+
+   <script src="js/main.js"></script>
+</body>
+</html>
